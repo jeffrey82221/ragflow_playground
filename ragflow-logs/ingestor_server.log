@@ -1,2 +1,6 @@
 2026-11-10 00:14:49.034+08:00	warn	ingestor_server	Admin server is available	{"pid": 38}
 2026-11-10 00:22:59.765+08:00	error	ingestor_server	error pulling task message, failed to fetch messages: nats: server shutdown	{"pid": 38}
+2026-11-10 00:24:28.032+08:00	warn	ingestor_server	Admin server is available	{"pid": 48}
+2026-11-10 00:24:33.111+08:00	error	ingestor_server	error pulling task message, failed to fetch messages: nats: server shutdown	{"pid": 48}
+2026-11-10 00:30:21.891+08:00	warn	ingestor_server	Admin server is available	{"pid": 48}
+2026-11-10 09:06:18.976+08:00	error	ingestor_server	error pulling task message, failed to fetch messages: nats: server shutdown	{"pid": 48}

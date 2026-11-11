@@ -1,2 +1,6 @@
 2026-11-10 00:14:48.350+08:00	warn	syncer_server	Admin server is unavailable, code: 1, reason: Post "http://0.0.0.0:9381/api/v1/admin/reports": dial tcp 0.0.0.0:9381: connect: connection refused	{"pid": 36}
 2026-11-10 00:14:51.358+08:00	warn	syncer_server	Admin server is available	{"pid": 36}
+2026-11-10 00:24:27.404+08:00	warn	syncer_server	Admin server is unavailable, code: 1, reason: Post "http://0.0.0.0:9381/api/v1/admin/reports": dial tcp 0.0.0.0:9381: connect: connection refused	{"pid": 49}
+2026-11-10 00:24:30.414+08:00	warn	syncer_server	Admin server is available	{"pid": 49}
+2026-11-10 00:30:21.237+08:00	warn	syncer_server	Admin server is unavailable, code: 1, reason: Post "http://0.0.0.0:9381/api/v1/admin/reports": dial tcp 0.0.0.0:9381: connect: connection refused	{"pid": 49}
+2026-11-10 00:30:24.242+08:00	warn	syncer_server	Admin server is available	{"pid": 49}
