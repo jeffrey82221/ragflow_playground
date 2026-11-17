@@ -39,6 +39,8 @@ services:
       - ./service_conf.yaml.template:/ragflow/conf/service_conf.yaml.template
       - ./entrypoint.sh:/ragflow/entrypoint.sh
       - ./conf/llm_factories.json:/ragflow/conf/llm_factories.json
+      # v1.0.0 Go backend builds the provider/model menu from conf/models/*.json
+      - ./conf/models:/ragflow/conf/models
       # - ${RAGFLOW_SSH_KNOWN_HOSTS:-${HOME}/.ssh/known_hosts}:${SSH_KNOWN_HOSTS:-/etc/ragflow/ssh_known_hosts}:ro
     env_file: .env
     # Route the Go services' cache/queue backend to the separate Kvrocks service.

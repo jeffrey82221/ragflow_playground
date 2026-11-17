@@ -376,60 +376,6 @@
             ]
         },
         {
-            "name": "xAI",
-            "logo": "",
-            "tags": "LLM",
-            "status": "1",
-            "rank": "992",
-            "llm": [
-                {
-                    "llm_name": "grok-4",
-                    "tags": "LLM,CHAT,256k",
-                    "max_tokens": 256000,
-                    "model_type": "chat",
-                    "is_tools": true
-                },
-                {
-                    "llm_name": "grok-3",
-                    "tags": "LLM,CHAT,130k",
-                    "max_tokens": 131072,
-                    "model_type": "chat",
-                    "is_tools": true
-                },
-                {
-                    "llm_name": "grok-3-fast",
-                    "tags": "LLM,CHAT,130k",
-                    "max_tokens": 131072,
-                    "model_type": "chat",
-                    "is_tools": true
-                },
-                {
-                    "llm_name": "grok-3-mini",
-                    "tags": "LLM,CHAT,130k",
-                    "max_tokens": 131072,
-                    "model_type": "chat",
-                    "is_tools": true
-                },
-                {
-                    "llm_name": "grok-3-mini-mini-fast",
-                    "tags": "LLM,CHAT,130k",
-                    "max_tokens": 131072,
-                    "model_type": "chat",
-                    "is_tools": true
-                },
-                {
-                    "llm_name": "grok-2-vision",
-                    "tags": "LLM,IMAGE2TEXT,32k",
-                    "max_tokens": 32768,
-                    "model_type": [
-                        "image2text",
-                        "chat"
-                    ],
-                    "is_tools": true
-                }
-            ]
-        },
-        {
             "name": "TokenPony",
             "logo": "",
             "tags": "LLM",
@@ -8617,29 +8563,6 @@
             "status": "1",
             "llm": [],
             "url": "https://connect.ragcon.com/v1"
-        },
-        {
-            "name": "Xiaomi",
-            "logo": "",
-            "tags": "LLM,IMAGE2TEXT",
-            "status": "1",
-            "url": "https://api.xiaomimimo.com/v1",
-            "llm": [
-                {
-                    "llm_name": "mimo-v2.5-pro",
-                    "tags": "LLM,CHAT,1M",
-                    "max_tokens": 1048576,
-                    "model_type": "chat",
-                    "is_tools": true
-                },
-                {
-                    "llm_name": "mimo-v2.5",
-                    "tags": "LLM,CHAT,1M,IMAGE2TEXT",
-                    "max_tokens": 1048576,
-                    "model_type": "chat",
-                    "is_tools": true
-                }
-            ]
         },
         {
             "name": "Perplexity",
