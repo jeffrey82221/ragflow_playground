@@ -249,6 +249,13 @@ services:
     networks:
       - ragflow
     command: ["--model-id", "/data/${TEI_MODEL}", "--auto-truncate"]
+    healthcheck:
+      # TEI returns 200 on /health once the model is loaded.
+      test: ["CMD", "curl", "-fsS", "http://localhost:80/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 60
+      start_period: 120s
     restart: unless-stopped
 
 

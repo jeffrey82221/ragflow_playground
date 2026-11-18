@@ -8,6 +8,11 @@ services:
       mysql:
         condition: service_healthy
         required: false
+      # Wait for the local embedding service so the default embedding model is reachable.
+      # required: false keeps `docker compose up` working when the tei-cpu profile is off.
+      tei-cpu:
+        condition: service_healthy
+        required: false
     profiles:
       - cpu
     image: ${RAGFLOW_IMAGE}
